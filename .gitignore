@@ -1,0 +1,17 @@
+# R and RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user
+
+# macOS
+.DS_Store
+
+# Environment and secrets
+.env
+.Renviron
+*.log
+
+# *.csv
+# data/raw/*.csv
