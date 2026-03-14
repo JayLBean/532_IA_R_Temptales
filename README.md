@@ -1,5 +1,11 @@
 # 532_IA — TempTales Individual Assignment (Shiny for R)
 
+| | |
+| :--- | :--- |
+| **License** | [![License](https://img.shields.io/github/license/JayLBean/532_IA_R_Temptales?label=License)](LICENSE) |
+| **R** | [![R](https://img.shields.io/badge/R-4.0+-276DC3.svg)](https://www.r-project.org/) |
+| **Status** | [![Repo Status](https://img.shields.io/badge/repo%20status-Active-brightgreen)](https://github.com/JayLBean/532_IA_R_Temptales) |
+
 Minimal Shiny for R re-implementation of the TempTales climate dashboard (Python/Shiny). This app allows users to compare temperature trends for a selected country between a base year and a target year.
 
 ## Purpose
@@ -60,21 +66,12 @@ runApp()
 1. Open `app.R` in RStudio
 2. Click the **Run App** button (or press Cmd+Shift+Enter / Ctrl+Shift+Enter)
 
-## Deployment to Posit Connect Cloud
-
-For deployment to Posit Connect Cloud, generate a `manifest.json` file so Connect knows which R packages to install:
-
-```r
-# From the 532_IA directory
-rsconnect::writeManifest()
-```
-
-Then deploy via the Posit Connect web interface or `rsconnect` package. Ensure `manifest.json` is committed to your GitHub repository.
 
 ## Deployed App
 
-*(Add your Posit Connect Cloud URL here after deployment. The assignment requires linking this in the repository About section.)*
+<https://jaylbean-532-ia-r-temptales.share.connect.posit.cloud/>
 
-## License
+## Copyright
 
-Same as the parent 532 project.
+- Copyright © 2026 Master of Data Science at the University of British Columbia.
+- Free software distributed under the [MIT License](./LICENSE).
